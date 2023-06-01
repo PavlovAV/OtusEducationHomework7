@@ -1,14 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otus.Teaching.Concurrency.Import.Loader", "Otus.Teaching.Concurrency.Import.Loader\Otus.Teaching.Concurrency.Import.Loader.csproj", "{FB35FE31-CBE7-455E-A965-ABF0E9957110}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Otus.Teaching.Concurrency.Import.Loader", "Otus.Teaching.Concurrency.Import.Loader\Otus.Teaching.Concurrency.Import.Loader.csproj", "{FB35FE31-CBE7-455E-A965-ABF0E9957110}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otus.Teaching.Concurrency.Import.DataAccess", "Otus.Teaching.Concurrency.Import.DataAccess\Otus.Teaching.Concurrency.Import.DataAccess.csproj", "{F355A3DF-6760-403E-BB2E-889FD6957F3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Otus.Teaching.Concurrency.Import.DataAccess", "Otus.Teaching.Concurrency.Import.DataAccess\Otus.Teaching.Concurrency.Import.DataAccess.csproj", "{F355A3DF-6760-403E-BB2E-889FD6957F3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otus.Teaching.Concurrency.Import.Core", "Otus.Teaching.Concurrency.Import.Core\Otus.Teaching.Concurrency.Import.Core.csproj", "{C7A060E6-C607-40A6-A099-107BB53085B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Otus.Teaching.Concurrency.Import.Core", "Otus.Teaching.Concurrency.Import.Core\Otus.Teaching.Concurrency.Import.Core.csproj", "{C7A060E6-C607-40A6-A099-107BB53085B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otus.Teaching.Concurrency.Import.DataGenerator.App", "Otus.Teaching.Concurrency.Import.DataGenerator.App\Otus.Teaching.Concurrency.Import.DataGenerator.App.csproj", "{C71DC579-5917-4FA2-A75E-95CE1D58B471}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Otus.Teaching.Concurrency.Import.DataGenerator.App", "Otus.Teaching.Concurrency.Import.DataGenerator.App\Otus.Teaching.Concurrency.Import.DataGenerator.App.csproj", "{C71DC579-5917-4FA2-A75E-95CE1D58B471}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otus.Teaching.Concurrency.Import.DataGenerator", "Otus.Teaching.Concurrency.Import.DataGenerator\Otus.Teaching.Concurrency.Import.DataGenerator.csproj", "{BBB4B899-2C17-477D-8C0D-BC057DDAFAD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Otus.Teaching.Concurrency.Import.DataGenerator", "Otus.Teaching.Concurrency.Import.DataGenerator\Otus.Teaching.Concurrency.Import.DataGenerator.csproj", "{BBB4B899-2C17-477D-8C0D-BC057DDAFAD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +40,10 @@ Global
 		{BBB4B899-2C17-477D-8C0D-BC057DDAFAD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBB4B899-2C17-477D-8C0D-BC057DDAFAD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FF89D7C-7E3B-4B25-AA55-05DE207E4AB9}
 	EndGlobalSection
 EndGlobal

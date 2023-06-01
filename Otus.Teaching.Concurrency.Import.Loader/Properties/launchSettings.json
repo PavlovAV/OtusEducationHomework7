@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Otus.Teaching.Concurrency.Import.Loader": {
+      "commandName": "Project",
+      "commandLineArgs": "D:\\PAVlovAV\\CSharpProjects\\OtusEducationProjects\\Otus.Teaching.Concurrency.Import\\Otus.Teaching.Concurrency.Import.DataGenerator.App\\bin\\Debug\\netcoreapp3.1\\Otus.Teaching.Concurrency.Import.DataGenerator.App.exe"
+    }
+  }
+}
